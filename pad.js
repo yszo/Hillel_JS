@@ -1,6 +1,6 @@
 function pad(string,addedSymbol,count,place){
     let resultString = string;
-    for(let i = 0; i <= count; i++) {
+    for(let i = 1; i <= count; i++) {
         if(place) {
             resultString = addedSymbol + resultString;
         } else {
