@@ -4,7 +4,7 @@ function isNaN(value) {
         return true
     } else {
         console.log(value + " - is not a Number");
-         return false 
+        return false 
     }
 }
 
