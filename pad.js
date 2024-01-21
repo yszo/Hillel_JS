@@ -10,5 +10,5 @@ function pad(string,addedSymbol,count,place){
     return resultString;
   
 }
-console.log(pad('ampersands', '&', 7, false));
-console.log(pad('stars', '*', 10, true));
+console.log(pad('ampersands', '&', 5, false));
+console.log(pad('stars', '*', 8, true));
